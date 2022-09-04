@@ -4,6 +4,14 @@
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
     </nav>
+    <hr>
+    <todo-header></todo-header>
+    <todo-title></todo-title>
+    <TodoInput></TodoInput>
+    <TodoController></TodoController>
+    <TodoList></TodoList>
+    <todo-footer></todo-footer>
+    <hr>
     <router-view/>
   </div>
 </template>
@@ -19,13 +27,16 @@
   export default {
     name: "app",
     components: {
-      TodoHeader,
-      TodoTitle,
-      TodoInput,
-      TodoController,
-      TodoFooter,
-      TodoList,
-    },
+    TodoHeader,
+    TodoTitle,
+    TodoInput,
+    TodoController,
+    TodoFooter,
+    TodoList,
+    TodoHeader,
+    TodoController,
+    TodoList
+},
     data(){
       return {
         todo:'Hello',
