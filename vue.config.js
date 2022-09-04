@@ -9,6 +9,7 @@ module.exports = defineConfig({
           @import "@/assets/style/_variables.scss";
         `
       }
-    }
+    },
+    sourceMap: true
   }
 })

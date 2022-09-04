@@ -9,7 +9,11 @@
 </template>
 <script>
 export default {
-    
+    data(){
+        return {
+            taskTotal:0
+        }
+    }
 }
 </script>
 <style lang="ko">
