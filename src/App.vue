@@ -8,6 +8,45 @@
   </div>
 </template>
 
+<script>
+  import TodoController from "./components/TodoController.vue";
+  import TodoTitle from "./components/TodoTitle.vue";
+  import TodoInput from "./components/TodoInput.vue";
+  import TodoHeader from "./components/TodoHeader.vue";
+  import TodoFooter from "./components/TodoFooter.vue";
+  import TodoList from "./components/TodoList.vue"
+
+  export default {
+    name: "app",
+    components: {
+      TodoHeader,
+      TodoTitle,
+      TodoInput,
+      TodoController,
+      TodoFooter,
+      TodoList,
+    },
+    data(){
+      return {
+        todo:'Hello',
+      }
+    },
+    created(){
+      this.getTodo();
+    },
+    mounted() {
+      //
+
+    },
+    methods: {
+      getTodo() {
+        console.log(this.todo);
+      }
+    }
+  }
+
+</script>
+
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
