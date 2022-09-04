@@ -22,7 +22,7 @@
   import TodoInput from "./components/TodoInput.vue";
   import TodoHeader from "./components/TodoHeader.vue";
   import TodoFooter from "./components/TodoFooter.vue";
-  import TodoList from "./components/TodoList.vue"
+  import TodoList from "./components/TodoList.vue";
 
   export default {
     name: "app",

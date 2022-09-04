@@ -12,7 +12,15 @@
 </template>
 <script>
 export default {
-    
+    name: 'TodoList',
+    data() {
+        return {
+            //
+        }
+    },
+    methods: {
+        //
+    },
 }
 </script>
 <style lang="ko">
