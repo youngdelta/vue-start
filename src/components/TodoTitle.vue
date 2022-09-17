@@ -5,7 +5,7 @@
             You've got
             <span class="title__task-total">{{taskTotal}}</span> task today.
         </p>
-        <h1>무궁화</h1>
+        <h1>무병장수</h1>
     </div>
     </div>
 </template>
