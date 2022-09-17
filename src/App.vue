@@ -9,7 +9,7 @@
     <todo-title></todo-title>
     <TodoInput></TodoInput>
     <TodoController></TodoController>
-    <TodoList></TodoList>
+    <!-- <TodoList></TodoList> -->
     <todo-footer></todo-footer>
     <hr>
     <router-view/>
@@ -22,7 +22,7 @@
   import TodoInput from "./components/TodoInput.vue";
   import TodoHeader from "./components/TodoHeader.vue";
   import TodoFooter from "./components/TodoFooter.vue";
-  import TodoList from "./components/TodoList.vue";
+  // import TodoList from "./components/TodoList.vue";
 
   export default {
     name: "app",
@@ -32,10 +32,9 @@
     TodoInput,
     TodoController,
     TodoFooter,
-    TodoList,
+    // TodoList,
     TodoHeader,
     TodoController,
-    TodoList
 },
     data(){
       return {
