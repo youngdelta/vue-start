@@ -11,6 +11,9 @@
         <ul>
           <li>list</li>
         </ul>
+        <div>
+          <span>test</span>
+        </div>
     </div>
 </template>
 <script>
