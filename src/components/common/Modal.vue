@@ -51,14 +51,19 @@ export default {
 
     data() {
     return {
-      name : '무궁화'
+      name : '무궁화',
+      list:[],
+      params:[],
+
     }
   },
   methods:{
     setName(name) {
         this.name = name;
     }
-
+    getList() {
+      console.log('getList.....');
+    }
   },
     computed: {
 
