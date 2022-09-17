@@ -55,6 +55,9 @@ export default {
     }
   },
   methods:{
+    setName(name) {
+        this.name = name;
+    }
 
   },
     computed: {
