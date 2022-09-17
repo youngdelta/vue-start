@@ -1,5 +1,6 @@
 <template>
   <div class="hello">
+    <hr><!--w-1-->
     <h1>{{ msg }}</h1>
     <div>
       <h1>행복하세요.</h1><!--w2-->
