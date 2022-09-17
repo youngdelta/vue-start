@@ -2,6 +2,8 @@
     <div class="add">
         <input class="add__input" type="text" placeholder="Enter your task" v-model="newTodoItem" @keyup.enter="addTodoItem"></input>
         <button class="add__button" @click.prevent="onClickAdd">Add</button>
+        <p>attribute</p>
+    </div>
     </div>
 </template>
 <script>
