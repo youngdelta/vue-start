@@ -1,6 +1,9 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
+    <div>
+      <h1>행복하세요.</h1><!--w2-->
+    </div>
     <p>
       For a guide and recipes on how to configure / customize this project,<br>
       check out the
