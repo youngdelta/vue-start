@@ -6,6 +6,13 @@
             가족 행복 사람
         </div>
         <div>
+            <div>
+                <span>
+                    
+                </span>
+            </div>
+        </div>
+        <div>
           <h2>{{name}}</h2>
         </div>
         <ul>
@@ -15,6 +22,11 @@
           <span>test</span>
         </div>
         <hr>
+        <div>
+            <div>
+                <span></span>
+            </div>
+        </div>
     </div>
 </template>
 <script>
