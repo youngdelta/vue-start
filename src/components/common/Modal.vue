@@ -5,6 +5,7 @@
         <div>
             가족 행복 사람
         </div>
+        <hr>
         <div>
             <div>
                 <span>
@@ -15,6 +16,7 @@
         <div>
           <h2>{{name}}</h2>
         </div>
+        <hr>
         <ul>
           <li>list</li>
         </ul>
