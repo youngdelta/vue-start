@@ -3,6 +3,9 @@
         <hr>
         <h1>무궁화 꽃이 피었습니다.</h1>
         <div>
+            가족 행복 사람
+        </div>
+        <div>
           <h2>{{name}}</h2>
         </div>
     </div>
@@ -18,7 +21,7 @@ export default {
   methods:{
 
   }
-    
+
 }
 </script>
 <style lang="">
