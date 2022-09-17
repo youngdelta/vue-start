@@ -13,7 +13,10 @@ export default {
         return {
             taskTotal:0
         }
-    }
+    },
+  methods:{
+
+  }
 }
 </script>
 <style lang="ko">

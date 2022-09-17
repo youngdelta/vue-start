@@ -18,8 +18,14 @@ export default {
         onClickAdd(){
             this.addTodoItem();
         }
-    }
-    
+    },
+  created() {
+      //
+  },
+  mounted() {
+      //
+  }
+
 }
 </script>
 <style lang="ko">
