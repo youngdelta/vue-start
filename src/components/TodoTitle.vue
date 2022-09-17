@@ -5,7 +5,7 @@
             You've got
             <span class="title__task-total">{{taskTotal}}</span> task today.
         </p>
-        <h1>무병장수</h1>
+        <h1>사랑하는 사람, 우리 가족들, 행복하길...</h1>
     </div>
     </div>
 </template>
