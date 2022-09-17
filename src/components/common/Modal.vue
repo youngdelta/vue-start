@@ -5,11 +5,25 @@
         <div>
             가족 행복 사람
         </div>
+        <div>
+          <h2>{{name}}</h2>
+        </div>
+        <ul>
+          <li>list</li>
+        </ul>
     </div>
 </template>
 <script>
 export default {
 
+    data() {
+    return {
+      name : '무궁화'
+    }
+  },
+  methods:{
+
+  },
     computed: {
 
     },
