@@ -31,7 +31,7 @@
         <hr>
         <div>
             <div>
-                <span></span>
+                <span>오징어 게임</span>
             </div>
         </div>
     </div>
