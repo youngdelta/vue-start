@@ -9,6 +9,13 @@
 </template>
 <script>
 export default {
+
+    computed: {
+
+    },
+    watch: {
+        
+    }
     
 }
 </script>
