@@ -12,6 +12,11 @@
                     1.무병장수
                 </span>
             </div>
+            <div>
+                <div>
+                    2.어린이
+                </div>
+            </div>
         </div>
         <div>
           <h2>{{name}}</h2>
