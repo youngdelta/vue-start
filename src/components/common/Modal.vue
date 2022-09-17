@@ -8,6 +8,9 @@
         <div>
           <h2>{{name}}</h2>
         </div>
+        <ul>
+          <li>list</li>
+        </ul>
     </div>
 </template>
 <script>
